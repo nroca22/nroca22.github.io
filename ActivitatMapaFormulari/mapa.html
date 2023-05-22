@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="map.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Mapa La Cellera de Ter</title>
+ 
+    </style>
+</head>
+<body>
+
+  <div class="px-4 py-5 text-center" style="background-image: url(ajunt.jpg);">
+    <img class="d-block mx-auto mb-4" src="map.png" alt="L'imatge no s'ha pogut carregar." width="72" height="72">
+    <h1 class="display-5 fw-bold" style="color: white">Marxa senderista anual 2023</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4" style="color: white">Ruta anual de la marxa senderista La Cellera de Ter, en els següents enllaços podeu veure les rutes, imatges de les rutes i les inscripcións:</p>
+      <p class="lead mb-4" style="color: white">Preu: 12€ ambdues rutes.<br>Data: 24 i 25 de juny a les 09:00AM</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a type="button" class="btn btn-outline-secondary btn-lg px-4" style="background-color: white;">Imàtges</a>
+        <a type="button" class="btn btn-outline-secondary btn-lg px-4" style="background-color: white;">Rutes</a>
+        <a type="button" class="btn btn-primary btn-lg px-4 gap-3">Inscripcións</a>
+
+      </div>
+    </div>
+  </div>
+
+<div style="padding-top: 50px;"></div>
+<!--                   -->
+<div class="px-4 text-center" style="width: 75%; margin:0 auto;">
+  <h1>Imàtges del recorregut</h1>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imatges-Introducció-La-Cellera-de-Ter-2019-11-25-3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Imatges-Introducció-La-Cellera-de-Ter-2019-11-25-4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Imatges-Introducció-La-Cellera-de-Ter-2019-11-25-7.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div style="padding-top: 50px;"></div>
+
+
+
+<!--                   -->
+<table style="margin:0 auto;">
+  <tr>
+    <td>
+      <h1>Les Rutes</h1>
+      <p>Les rutes que es realitzaràn seràn les següents, la primera de 16km començant el dia 24 a les 09:00 i la segöna el dia 25 de 25km, ambdues començant des-del poble.</p>
+    </td>
+  </tr>
+</table>
+<table style="margin:0 auto;">
+  <tr>
+    <td>
+      <h2>Ruta 1 (16KM)</h2>
+    </td>
+    <td>
+      <h2>Ruta 2 (25KM)</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1i50rLEh1rH8V3NMQUa0m-btGXEqHV8M&ehbc=2E312F" width="640" height="480"></iframe>
+    </td>
+    <td>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1STFCGYJqGR3Gzp7kcHZk_uGgV_BCpPU&ehbc=2E312F" width="640" height="480"></iframe>
+    </td>
+  </tr>
+</table><br><br>
+<table style="margin:0 auto;">
+  <tr><td><h1>Formulari d'Inscripció</h1></td></tr>
+  <tr>
+    <td>
+      <form>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" size="15" placeholder="Joan">
+      
+        <label for="cognom">Cognom</label>
+        <input type="text" id="cognom" name="cognom" size="15" placeholder="Martínez"><br>
+      
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" maxlength="10">
+      
+        <label for="tel">Telèfon:</label>
+        <input type="tel" id="tel"><br>
+      
+        <label for="mail">Correu Electronic:</label>
+        <input type="mail" id="mail"><br>
+      
+        <label for="naix">Data de naixement:</label>
+        <input type="date" id="naix">
+      
+        <label for="cp">Codi Postal:</label>
+        <input type="number" id="cp" maxlength="5" size="5">
+      
+        <label for="adreca">Adreça:</label>
+        <input type="text" id="adreca"><br>
+      
+        <label for="Genre">Genre:</label>
+        <input type="radio" id="home" name="Genre" value="home">
+        <label for="home">Home</label>
+        <input type="radio" id="dona" name="Genre" value="dona">
+        <label for="dona">Dona</label><br>
+        <input type="radio" id="nodir" name="Genre" value="nodir">
+        <label for="nodir">Prefereixo no dir-ho</label><br>
+      
+        <label for="cor">Tens alguna malaltia del cor?:</label>
+        <input type="radio" id="si" name="cor" value="si">
+        <label for="si">Si</label>
+        <input type="radio" id="no" name="cor" value="no">
+        <label for="no">No</label><br>
+      
+        <label for="alergia">Tens alguna alergia?:</label>
+        <input type="radio" id="sialergia" name="alergia" value="sialergia">
+        <label for="sialergia">Si</label>
+        <input type="radio" id="noalergia" name="alergia" value="noalergia">
+        <label for="noalergia">No</label><br>
+      
+        <label for="alergiasub">Si la resposta és si, indica quines són:</label>
+        <input type="text" id="alergiasub"><br>
+      
+        <label for="marxa">A quina marxa t'apuntes?:</label>
+        <input type="radio" id="marxa1" name="marxa" value="marxa1">
+        <label for="marxa1">Marxa 1 (curta)</label>
+        <input type="radio" id="marxa2" name="alergia" value="marxa2">
+        <label for="marxa2">Marxa 2 (llarga)</label><br>
+      
+        <label for="rating">Rate from 0 to 10:</label>
+        <input type="range" class="slider" id="rating" name="rating" min="0" max="10" step="1">
+      </form>
+    </td>
+  </tr>
+</table>
+<div class="p-4 shadow-4 rounded-3">
+  
+</div>
+
+
+</body>
+
+<!--
+Preferència sobre les postres (fruita, flam, iogurt, pastís de xocolata) és pot escollir més d'una opció.
+Un element per pujar la foto on es vegi la transferència de pagament feta.-->

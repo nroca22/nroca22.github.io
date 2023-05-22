@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6e6c6c;
+  }
+
+li {
+ float: left;
+
+}
+
+li a {
+    display: inline-block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.c1:hover {
+    transform: translate(20px);
+    color: #ff0000;
+    transition: 2s;
+}
+
+.c2:hover {
+    transform: rotate(50deg);
+    transition: 5s;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.c3:hover {
+    transform: skew(25deg);
+    transition: 1s;
+    font-size: 150%;
+}
+
+.c4:hover {
+    transform: scale(2, 2);
+    transition: 1s;
+    color: rgb(185, 86, 86)
+}
